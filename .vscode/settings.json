@@ -1,0 +1,17 @@
+{
+    "KeilAssistant.Uv4Path": "C:\\Users\\15478\\AppData\\Local\\Keil_v5\\UV4\\UV4.exe",
+    "KeilAssistant.Projects": [
+        "${workspaceFolder}/MDK-ARM/AItry.uvprojx"
+    ],
+    "files.exclude": {
+        "**/*.o": true,
+        "**/*.d": true,
+        "**/*.crf": true,
+        "**/*.lst": true,
+        "**/*.axf": true,
+        "**/*.hex": true,
+        "**/*.htm": true,
+        "**/*.lnp": true,
+        "**/*.dep": true
+    }
+}
