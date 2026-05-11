@@ -16,3 +16,15 @@
 
 # STM32CubeMX backup
 .mxproject
+
+# Build outputs
+/build/
+
+# Local tools (make.exe, etc.)
+/tools/
+
+# IDE settings
+.settings/
+
+# Misc
+EOF

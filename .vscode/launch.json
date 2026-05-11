@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug (ST-Link GDB Server)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "stlink",
+            "serverpath": "C:/Users/15478/AppData/Local/stm32cube/bundles/stlink-gdbserver/7.13.0+st.3/bin/ST-LINK_gdbserver.exe",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/AItry.elf",
+            "armToolchainPath": "C:/Users/15478/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/13.3.1+st.9/bin",
+            "preLaunchTask": "Build",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
+        }
+    ]
+}
