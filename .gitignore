@@ -1,24 +1,13 @@
-# Keil MDK user-specific files
-*.uvguix.*
-
-# Keil build outputs
+# Build outputs
 *.o
 *.d
-*.crf
 *.lst
 *.map
 *.hex
-*.axf
-*.htm
-*.lnp
-*.dep
-*.build_log.htm
+/build/
 
 # STM32CubeMX backup
 .mxproject
-
-# Build outputs
-/build/
 
 # Local tools (make.exe, etc.)
 /tools/
@@ -26,5 +15,6 @@
 # IDE settings
 .settings/
 
-# Misc
-EOF
+# Tool runtime state
+.embeddedskills/
+.playwright-mcp/
